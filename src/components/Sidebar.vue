@@ -17,7 +17,33 @@ export default {
             </div>
 
             <!-- content sidebar -->
-            <div class="bg-gradient-to-t from-[#9c9c9f] to-[#696a6c] text-white h-full rounded flex flex-col">
+            <div
+                class="bg-gradient-to-t from-[#9c9c9f] to-[#696a6c] text-white h-full rounded flex flex-col justify-center gap-3 text-[12px] uppercase">
+
+                <div class="flex flex-col items-center">
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    <span class="mt-1"><small>about</small></span>
+                </div>
+
+                <div class="flex flex-col items-center pt-3">
+                    <font-awesome-icon icon="fa-solid fa-wand-sparkles" />
+                    <span class="mt-1"><small>skill</small></span>
+                </div>
+
+                <div class="flex flex-col items-center pt-3">
+                    <font-awesome-icon icon="fa-solid fa-square-share-nodes" />
+                    <span class="mt-1"><small>social</small></span>
+                </div>
+
+                <div class="flex flex-col items-center pt-3">
+                    <font-awesome-icon icon="fa-solid fa-briefcase" />
+                    <span class="mt-1"><small>works</small></span>
+                </div>
+
+                <div class="flex flex-col items-center pt-3">
+                    <font-awesome-icon icon="fa-solid fa-id-card" />
+                    <span class="mt-1"><small>contact</small></span>
+                </div>
 
             </div>
         </nav>

@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <section class="container h-[700px] flex">
+    <section class="container h-[700px] flex border border-slate-900">
         <Sidebar />
     </section>
 </template>
